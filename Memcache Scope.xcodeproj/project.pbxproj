@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6698C22615ACF23C00F24F95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6698C22515ACF23C00F24F95 /* Cocoa.framework */; };
+		6698C23015ACF23C00F24F95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6698C22E15ACF23C00F24F95 /* InfoPlist.strings */; };
+		6698C23215ACF23C00F24F95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C23115ACF23C00F24F95 /* main.m */; };
+		6698C23615ACF23C00F24F95 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6698C23415ACF23C00F24F95 /* Credits.rtf */; };
+		6698C23915ACF23C00F24F95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C23815ACF23C00F24F95 /* AppDelegate.m */; };
+		6698C23C15ACF23C00F24F95 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6698C23A15ACF23C00F24F95 /* MainMenu.xib */; };
+		6698C24615AD0AFB00F24F95 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C24315AD0AFB00F24F95 /* GCDAsyncSocket.m */; };
+		6698C24715AD0AFB00F24F95 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C24515AD0AFB00F24F95 /* GCDAsyncUdpSocket.m */; };
+		6698C24B15AD0CAD00F24F95 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6698C24A15AD0CAD00F24F95 /* CoreServices.framework */; };
+		6698C24D15AD0CB500F24F95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6698C24C15AD0CB500F24F95 /* Security.framework */; };
+		6698C26015AD3F7E00F24F95 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25115AD3F7E00F24F95 /* DDAbstractDatabaseLogger.m */; };
+		6698C26115AD3F7E00F24F95 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25315AD3F7E00F24F95 /* DDASLLogger.m */; };
+		6698C26215AD3F7E00F24F95 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25515AD3F7E00F24F95 /* DDFileLogger.m */; };
+		6698C26315AD3F7E00F24F95 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25715AD3F7E00F24F95 /* DDLog.m */; };
+		6698C26415AD3F7E00F24F95 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25915AD3F7E00F24F95 /* DDTTYLogger.m */; };
+		6698C26515AD3F7E00F24F95 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25C15AD3F7E00F24F95 /* ContextFilterLogFormatter.m */; };
+		6698C26615AD3F7E00F24F95 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698C25E15AD3F7E00F24F95 /* DispatchQueueLogFormatter.m */; };
+		6698C26715AD3F7E00F24F95 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6698C25F15AD3F7E00F24F95 /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6698C22115ACF23C00F24F95 /* Memcache Scope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memcache Scope.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6698C22515ACF23C00F24F95 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6698C22815ACF23C00F24F95 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6698C22915ACF23C00F24F95 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6698C22A15ACF23C00F24F95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6698C22D15ACF23C00F24F95 /* Memcache Scope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memcache Scope-Info.plist"; sourceTree = "<group>"; };
+		6698C22F15ACF23C00F24F95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6698C23115ACF23C00F24F95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6698C23315ACF23C00F24F95 /* Memcache Scope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memcache Scope-Prefix.pch"; sourceTree = "<group>"; };
+		6698C23515ACF23C00F24F95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6698C23715ACF23C00F24F95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6698C23815ACF23C00F24F95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6698C23B15ACF23C00F24F95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6698C24215AD0AFB00F24F95 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = "../../../../osx/Memcache Scope/Memcache Scope/GCDAsyncSocket.h"; sourceTree = "<group>"; };
+		6698C24315AD0AFB00F24F95 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = "../../../../osx/Memcache Scope/Memcache Scope/GCDAsyncSocket.m"; sourceTree = "<group>"; };
+		6698C24415AD0AFB00F24F95 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = "../../../../osx/Memcache Scope/Memcache Scope/GCDAsyncUdpSocket.h"; sourceTree = "<group>"; };
+		6698C24515AD0AFB00F24F95 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = "../../../../osx/Memcache Scope/Memcache Scope/GCDAsyncUdpSocket.m"; sourceTree = "<group>"; };
+		6698C24A15AD0CAD00F24F95 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		6698C24C15AD0CB500F24F95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6698C25015AD3F7E00F24F95 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		6698C25115AD3F7E00F24F95 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		6698C25215AD3F7E00F24F95 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		6698C25315AD3F7E00F24F95 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		6698C25415AD3F7E00F24F95 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		6698C25515AD3F7E00F24F95 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		6698C25615AD3F7E00F24F95 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		6698C25715AD3F7E00F24F95 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		6698C25815AD3F7E00F24F95 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		6698C25915AD3F7E00F24F95 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		6698C25B15AD3F7E00F24F95 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		6698C25C15AD3F7E00F24F95 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		6698C25D15AD3F7E00F24F95 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		6698C25E15AD3F7E00F24F95 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		6698C25F15AD3F7E00F24F95 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6698C21E15ACF23C00F24F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6698C24D15AD0CB500F24F95 /* Security.framework in Frameworks */,
+				6698C24B15AD0CAD00F24F95 /* CoreServices.framework in Frameworks */,
+				6698C22615ACF23C00F24F95 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6698C21615ACF23B00F24F95 = {
+			isa = PBXGroup;
+			children = (
+				6698C22B15ACF23C00F24F95 /* Memcache Scope */,
+				6698C22415ACF23C00F24F95 /* Frameworks */,
+				6698C22215ACF23C00F24F95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6698C22215ACF23C00F24F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6698C22115ACF23C00F24F95 /* Memcache Scope.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6698C22415ACF23C00F24F95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6698C24C15AD0CB500F24F95 /* Security.framework */,
+				6698C24A15AD0CAD00F24F95 /* CoreServices.framework */,
+				6698C22515ACF23C00F24F95 /* Cocoa.framework */,
+				6698C22715ACF23C00F24F95 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6698C22715ACF23C00F24F95 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6698C22815ACF23C00F24F95 /* AppKit.framework */,
+				6698C22915ACF23C00F24F95 /* CoreData.framework */,
+				6698C22A15ACF23C00F24F95 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6698C22B15ACF23C00F24F95 /* Memcache Scope */ = {
+			isa = PBXGroup;
+			children = (
+				6698C23715ACF23C00F24F95 /* AppDelegate.h */,
+				6698C23815ACF23C00F24F95 /* AppDelegate.m */,
+				6698C23A15ACF23C00F24F95 /* MainMenu.xib */,
+				6698C24E15AD3F7E00F24F95 /* Vendor */,
+				6698C22C15ACF23C00F24F95 /* Supporting Files */,
+			);
+			path = "Memcache Scope";
+			sourceTree = "<group>";
+		};
+		6698C22C15ACF23C00F24F95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6698C22D15ACF23C00F24F95 /* Memcache Scope-Info.plist */,
+				6698C22E15ACF23C00F24F95 /* InfoPlist.strings */,
+				6698C23115ACF23C00F24F95 /* main.m */,
+				6698C23315ACF23C00F24F95 /* Memcache Scope-Prefix.pch */,
+				6698C23415ACF23C00F24F95 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6698C24E15AD3F7E00F24F95 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6698C24215AD0AFB00F24F95 /* GCDAsyncSocket.h */,
+				6698C24315AD0AFB00F24F95 /* GCDAsyncSocket.m */,
+				6698C24415AD0AFB00F24F95 /* GCDAsyncUdpSocket.h */,
+				6698C24515AD0AFB00F24F95 /* GCDAsyncUdpSocket.m */,
+				6698C24F15AD3F7E00F24F95 /* CocoaLumberjack */,
+			);
+			name = Vendor;
+			path = ../../../ruby/sources/CocoaAsyncSocket/Vendor;
+			sourceTree = "<group>";
+		};
+		6698C24F15AD3F7E00F24F95 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				6698C25015AD3F7E00F24F95 /* DDAbstractDatabaseLogger.h */,
+				6698C25115AD3F7E00F24F95 /* DDAbstractDatabaseLogger.m */,
+				6698C25215AD3F7E00F24F95 /* DDASLLogger.h */,
+				6698C25315AD3F7E00F24F95 /* DDASLLogger.m */,
+				6698C25415AD3F7E00F24F95 /* DDFileLogger.h */,
+				6698C25515AD3F7E00F24F95 /* DDFileLogger.m */,
+				6698C25615AD3F7E00F24F95 /* DDLog.h */,
+				6698C25715AD3F7E00F24F95 /* DDLog.m */,
+				6698C25815AD3F7E00F24F95 /* DDTTYLogger.h */,
+				6698C25915AD3F7E00F24F95 /* DDTTYLogger.m */,
+				6698C25A15AD3F7E00F24F95 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		6698C25A15AD3F7E00F24F95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6698C25B15AD3F7E00F24F95 /* ContextFilterLogFormatter.h */,
+				6698C25C15AD3F7E00F24F95 /* ContextFilterLogFormatter.m */,
+				6698C25D15AD3F7E00F24F95 /* DispatchQueueLogFormatter.h */,
+				6698C25E15AD3F7E00F24F95 /* DispatchQueueLogFormatter.m */,
+				6698C25F15AD3F7E00F24F95 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6698C22015ACF23C00F24F95 /* Memcache Scope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6698C23F15ACF23C00F24F95 /* Build configuration list for PBXNativeTarget "Memcache Scope" */;
+			buildPhases = (
+				6698C21D15ACF23C00F24F95 /* Sources */,
+				6698C21E15ACF23C00F24F95 /* Frameworks */,
+				6698C21F15ACF23C00F24F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memcache Scope";
+			productName = "Memcache Scope";
+			productReference = 6698C22115ACF23C00F24F95 /* Memcache Scope.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6698C21815ACF23B00F24F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6698C21B15ACF23B00F24F95 /* Build configuration list for PBXProject "Memcache Scope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6698C21615ACF23B00F24F95;
+			productRefGroup = 6698C22215ACF23C00F24F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6698C22015ACF23C00F24F95 /* Memcache Scope */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6698C21F15ACF23C00F24F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6698C23015ACF23C00F24F95 /* InfoPlist.strings in Resources */,
+				6698C23615ACF23C00F24F95 /* Credits.rtf in Resources */,
+				6698C23C15ACF23C00F24F95 /* MainMenu.xib in Resources */,
+				6698C26715AD3F7E00F24F95 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6698C21D15ACF23C00F24F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6698C23215ACF23C00F24F95 /* main.m in Sources */,
+				6698C23915ACF23C00F24F95 /* AppDelegate.m in Sources */,
+				6698C24615AD0AFB00F24F95 /* GCDAsyncSocket.m in Sources */,
+				6698C24715AD0AFB00F24F95 /* GCDAsyncUdpSocket.m in Sources */,
+				6698C26015AD3F7E00F24F95 /* DDAbstractDatabaseLogger.m in Sources */,
+				6698C26115AD3F7E00F24F95 /* DDASLLogger.m in Sources */,
+				6698C26215AD3F7E00F24F95 /* DDFileLogger.m in Sources */,
+				6698C26315AD3F7E00F24F95 /* DDLog.m in Sources */,
+				6698C26415AD3F7E00F24F95 /* DDTTYLogger.m in Sources */,
+				6698C26515AD3F7E00F24F95 /* ContextFilterLogFormatter.m in Sources */,
+				6698C26615AD3F7E00F24F95 /* DispatchQueueLogFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6698C22E15ACF23C00F24F95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6698C22F15ACF23C00F24F95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6698C23415ACF23C00F24F95 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6698C23515ACF23C00F24F95 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6698C23A15ACF23C00F24F95 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6698C23B15ACF23C00F24F95 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6698C23D15ACF23C00F24F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6698C23E15ACF23C00F24F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6698C24015ACF23C00F24F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memcache Scope/Memcache Scope-Prefix.pch";
+				INFOPLIST_FILE = "Memcache Scope/Memcache Scope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6698C24115ACF23C00F24F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memcache Scope/Memcache Scope-Prefix.pch";
+				INFOPLIST_FILE = "Memcache Scope/Memcache Scope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6698C21B15ACF23B00F24F95 /* Build configuration list for PBXProject "Memcache Scope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6698C23D15ACF23C00F24F95 /* Debug */,
+				6698C23E15ACF23C00F24F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6698C23F15ACF23C00F24F95 /* Build configuration list for PBXNativeTarget "Memcache Scope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6698C24015ACF23C00F24F95 /* Debug */,
+				6698C24115ACF23C00F24F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6698C21815ACF23B00F24F95 /* Project object */;
+}
