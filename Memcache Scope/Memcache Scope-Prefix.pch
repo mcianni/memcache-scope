@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Memcache Scope' target in the 'Memcache Scope' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
